@@ -48,7 +48,7 @@
     }
 
     /* 리스트 스타일에 있던 불렛 (·)을 임의의 이미지로 바꿈 */
-    #traffic li { list-style: url("nike1/images/bullet_star.png"); }
+    #traffic li { list-style: url("images/bullet_star.png"); }
 
     #main p
     {
@@ -62,7 +62,7 @@
 <body>
     <header id="header">
         <div>
-            <img src="nike/images/main_image.jpg" alt="main", width="100%">
+            <img src="images/main_image.jpg" alt="main", width="100%">
         </div>
         <ul id="menu">
             <li><a href="#">수목원 소개 |</a></li>
