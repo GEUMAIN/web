@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            font: 15px "Gulim";
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            padding: 40px;
+        }
+        #span {
+            font-weight: bold;
+            color: rgb(255, 0, 0);
+        }
+        #box li {
+            text-align: right;
+            padding: 0 25px;
+            padding: auto;
+            list-style: none;
+        }
+        #box {
+            margin: 0 400px;
+        }
+        #box th{
+            border: 1px solid black;
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table th{
+            border: 1px solid black;
+        }
+        table td{
+            border: 1px solid black;
+            padding: 15px 30px;
+        }
+        table caption {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h1>성일정보고 회원가입</h1>
+        <table>
+            <caption>(*)표시는 <span id="span">필수입력</span>사항입니다.</caption>
+            <tr>
+                <th><li><span id="span">*</span>회원유형</li></th>
+                <td>학생</td>
+            </tr>
+            <tr>
+                <th><li><span id="span">*</span>이름(성명)</li></th>
+                <td>홍길동</td>
+            </tr>
+            <tr>
+                <th><li><span id="span">*</span>아이디</li></th>
+                <td><input type="text"><br>6~15자의 영문소문자, 숫자만 가능합니다.</td>
+            </tr>
+            <tr>
+                <th><li><span id="span">*</span>비밀번호</li></th>
+                <td><input type="password"><br>비밀번호는 <span id="span">영대문자, 영소문자, 숫자, 특수문자의 조합</span>으로 이루어져야 합니다. <br><br> - 조합이 2종류 이상인 경우 10자리 이상 <br><br> - 조합이 3종류 이상인 경우 8자리 이상 가능합니다.</td>
+            </tr>
+            <tr>
+                <th><li><span id="span">*</span>비밀번호 확인</li></th>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <th><li><span id="span">*</span>생년원일</li></th>
+                <td><input type="datetime"></td>
+            </tr>
+            <tr>
+                <th><li><span id="span">*</span>성별</li></th>
+                <td><input type="radio">남  <input type="radio">여</td>
+            </tr>
+            <tr>
+                <th><li>관심분야</li></th>
+                <td><input type="checkbox">컴퓨터   <input type="checkbox"> 코딩<input type="checkbox"> 로봇<input type="checkbox"> 인공지능<input type="checkbox"> AR<input type="checkbox">   VR<input type="checkbox">   빅데이터    <input type="checkbox">게임
+            </tr>
+            <tr>
+                <th><li><li><span id="span">*</span>이메일</li></th>
+                <td><input type="text">@<input type="password"><select name="emailadress">  <option value="Email 주소 선택">Email 주소 선택</option>    </select><input type="submit" value="중복확인"> <br><br> 비밀번호 분실시 이메일로 임시비밀번호가 발송됩니다. 반드시 정확히 입력해주세요. <br><br> ※ 다음(daum.net, hanmail.net) 메일계정을 사용하시면 정삭적으로 받으실 수 없습니다.</td>
+            </tr>
+            <tr>
+                <th><li><li><span id="span">*</span>본인 소개</li></th>
+                <td><textarea name="textarea" id="textarea" cols="50" rows="20"></textarea></td>
+            </tr>
+            <tr>
+                <th><li>사진 업로드</li></th>
+                <td>학생증에 사용할 증명사진을 돌려주세요 <br> 사진 파일은 <span id="span">jpg, png, gif, bmp</span>만 가능합니다. <br><br> <input type="file"></td>
+            </tr>
+            <tr>
+                <td>
+                    학교 홈페이지에 가입하시겠습니까?<input type="submit" value="확인"> <input type="reset" value="취소">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
