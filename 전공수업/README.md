@@ -13,7 +13,7 @@
 
 </head>
 <body>
-	<form>
+	<form name="rData" action="" method="post">
 	<table width = 55%>
 		<tr>
 			<th>예약번호</th>
