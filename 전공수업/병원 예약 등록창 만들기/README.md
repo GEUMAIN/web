@@ -100,4 +100,5 @@
 
 ### 결과
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fa97d740-13f6-4ddc-9939-b86bb2c976d6/9dfe4a7f-c416-42cd-8823-08b026cd17a3/Untitled.png)
+![image](https://github.com/GEUMAIN/web/assets/128437656/4c70e14d-e990-4a98-9ba3-0703ae7815ef)
+
