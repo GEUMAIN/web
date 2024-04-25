@@ -66,4 +66,5 @@
 
 ### 결과
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fa97d740-13f6-4ddc-9939-b86bb2c976d6/15aa750d-d9b6-41bd-97f6-2bd56514e7c8/Untitled.png)
+![image](https://github.com/GEUMAIN/web/assets/128437656/c67ceca7-dc33-4ce0-af32-84873e9b7f87)
+
